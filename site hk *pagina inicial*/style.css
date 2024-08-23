@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "Chakra Petch", sans-serif;
+}
+
+body{
+background: #fff;
+}
+
+.header{
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+padding: 30px 8%;
+background: transparent;
+display: flex;
+align-items:center ;
+z-index: 100;
+}
+
+
+.logo{
+    font-size: 35px;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar a{
+font-size: 18px;
+color: black;
+text-decoration: none;
+font-weight: 500;
+margin: 0 20px;
+transition: .3s;
+}
+
+
+.navbar a:hover, .navbar a.active{
+color: lightskyblue;
+}
+
+.social-media{
+width: 150px;
+height: 40px;
+justify-content: space-between;
+display: flex;
+}
+
+.social-media a {
+display: inline-flex;
+width: 40px;
+height: 40px;
+background: transparent;
+border: 2px solid rgb(27, 231, 238);
+text-decoration: none;
+transform: rotate(45deg);
+}
+
+.social-media a i{
+font-size: 24px;
+color: rgb(6, 184, 190);
+transform: rotate(-45deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
